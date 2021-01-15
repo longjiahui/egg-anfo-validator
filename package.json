@@ -1,0 +1,12 @@
+{
+    "name": "@anfo/egg-anfo-validator",
+    "version": "1.0.1",
+    "main": "index.js",
+    "description": "vlidator plugin for egg",
+    "eggPlugin": {
+        "name": "validator"
+    },
+    "dependencies": {
+        "@anfo/validator": "^2.2.2"
+    }
+}

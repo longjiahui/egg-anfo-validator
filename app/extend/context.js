@@ -1,11 +1,8 @@
-const Validator = require('@anfo/validator')
-
-const validator = new Validator()
 module.exports = {
     get validator(){
-        return validator
+        return this.app.validator
     },
     validate(...rest){
-        return validator.v(...rest)
+        return this.validator.v(...rest)
     }
 }

@@ -11,5 +11,5 @@ module.exports = {
             this[key] = new Validator(validateSchema)
         }
         return this[key]
-    }
+    },
 }

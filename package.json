@@ -7,6 +7,6 @@
         "name": "validator"
     },
     "dependencies": {
-        "@anfo/validator": "^2.2.5"
+        "@anfo/validator": "latest"
     }
 }
